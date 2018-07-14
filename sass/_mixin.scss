@@ -1,0 +1,14 @@
+@mixin h3_categories {
+  color: $green-1;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid $grey-2;
+}
+
+@mixin raleway {
+  font-family: 'Raleway', sans-serif;
+}
