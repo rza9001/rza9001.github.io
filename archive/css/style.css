@@ -78,14 +78,15 @@ body {
 }
 
 .header__top__phone {
-  width: 2rem;
-  height: 2rem;
+  width: 2.2rem;
+  height: 1.8rem;
+  margin-bottom: .2rem;
 }
 
 @media only screen and (min-width: 62em) {
   .header__top__phone {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 2.6rem;
+    height: 2.2rem;
   }
 }
 
@@ -206,12 +207,26 @@ body {
 }
 
 .hero {
-  height: 30rem;
-  margin-top: -5.5rem;
+  height: 10rem;
   background-image: url(../images/hero.jpg);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media only screen and (min-width: 48em) {
+  .hero {
+    height: 20rem;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  .hero {
+    height: 30rem;
+    background-image: url(../images/hero.jpg);
+    background-position: top;
+    background-size: cover;
+  }
 }
 
 .bedroom {
@@ -288,6 +303,10 @@ body {
     margin-bottom: 2.5rem;
     margin-top: 1rem;
   }
+}
+
+.bedroom__text h3 a {
+  color: #212121;
 }
 
 @media only screen and (min-width: 48em) {
@@ -765,20 +784,20 @@ body {
   background: #2d3e50;
 }
 
-::-webkit-input-placeholder {
-  color: #fff;
-}
-
 :-ms-input-placeholder {
-  color: #fff;
+  color: #fff !important;
 }
 
 ::-ms-input-placeholder {
-  color: #fff;
+  color: #fff !important;
+}
+
+::-webkit-input-placeholder {
+  color: #fff !important;
 }
 
 ::placeholder {
-  color: #fff;
+  color: #fff !important;
 }
 
 .glass {
@@ -1125,6 +1144,7 @@ body {
 .footer {
   margin-top: 6rem;
   background-color: #2d3e50;
+  padding-bottom: 9rem;
 }
 
 .footer__1 {
@@ -1231,6 +1251,7 @@ body {
 .footer__2 {
   color: #fff;
   padding: 4rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 @media only screen and (min-width: 48em) {
@@ -1381,6 +1402,21 @@ body {
   .footer__2__instagram {
     border: 1px solid #2d3e50;
   }
+}
+
+.footer__3 {
+  margin-top: 2.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.footer__3__text-left {
+  text-align: left;
+}
+
+.footer__3__text-right {
+  text-align: right;
 }
 
 /*# sourceMappingURL=style.css.map */
