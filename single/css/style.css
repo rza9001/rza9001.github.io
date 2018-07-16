@@ -1098,14 +1098,28 @@ body {
   color: #fff;
   font-size: 1.2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .footer__3__text-left {
-  text-align: left;
+  letter-spacing: .08rem;
+}
+
+@media only screen and (min-width: 48em) {
+  .footer__3__text-left {
+    text-align: left;
+  }
 }
 
 .footer__3__text-right {
-  text-align: right;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (min-width: 48em) {
+  .footer__3__text-right {
+    text-align: right;
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
